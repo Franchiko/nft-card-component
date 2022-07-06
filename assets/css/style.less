@@ -41,12 +41,12 @@ body{
 // Variables styles
 
 .card{
-    background: radial-gradient(at 0% 10%, @Dark-Blue, @Very-Dark-Blue);
+    background: radial-gradient(at 50% -20%, @Dark-Blue, @Very-Dark-Blue);
     width: 90%;
     text-align: left;
     padding: 1.3rem;
     border-radius: 0.7rem;
-
+    opacity: 0.9;
     
 }
 
@@ -61,3 +61,36 @@ body{
     }
 }
 
+.paragraph-text{
+    color: @Medium-Grey;
+    padding: 1rem 0;
+}
+
+.text-left{
+    .evaluate{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem 1rem;
+
+        p{
+            background-color: @Dark-Blue;
+            border-radius: 100%;
+            padding: 1rem;
+            opacity: 0.8;
+            color: @Medium-Grey;
+        }
+    }
+}
+
+button{
+    width: 100%;
+    background-color: @primary;
+    border: none;
+    padding: 1rem 1rem;
+    margin: 0.7rem 0;
+    border-radius: 1.5rem;
+    color: @white;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+}
