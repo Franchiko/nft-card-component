@@ -1,0 +1,32 @@
+* {
+  margin: 0   ;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  width: 100%;
+  max-width: 375px;
+  font-size: 15px;
+  margin: 3rem auto;
+  vertical-align: middle;
+  background-color: hsl(216, 12%, 8%);
+  color: hsl(0, 0%, 100%);
+  font-family: Overpass, sans-serif;
+}
+.card {
+  background: radial-gradient(at 0% 10%, hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+  width: 90%;
+  text-align: left;
+  padding: 1.3rem;
+  border-radius: 0.7rem;
+}
+.icon {
+  margin-left: 0.3rem;
+  padding: 0.5rem 0;
+}
+.icon img {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 100%;
+  padding: 1rem;
+}
