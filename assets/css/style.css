@@ -31,6 +31,11 @@ body {
   border-radius: 100%;
   padding: 1rem;
 }
+.icon img:hover {
+  background-color: hsl(216, 12%, 8%);
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+}
 .paragraph-text {
   color: hsl(216, 12%, 54%);
   padding: 1rem 0;
@@ -55,6 +60,10 @@ body {
   opacity: 0.8;
   color: hsl(216, 12%, 54%);
 }
+.text-left .evaluate p:hover {
+  background-color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
 button {
   width: 100%;
   background-color: hsl(25, 97%, 53%);
@@ -65,4 +74,30 @@ button {
   color: hsl(0, 0%, 100%);
   text-transform: uppercase;
   letter-spacing: 0.15rem;
+}
+button:hover {
+  background-color: hsl(216, 12%, 8%);
+  cursor: progress;
+}
+.icon-state {
+  text-align: center;
+}
+.message {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 1.2rem;
+  padding: 0.5rem 0;
+  width: 60%;
+  margin: 1.2rem auto;
+  text-align: center;
+  vertical-align: middle;
+  color: hsl(25, 97%, 53%);
+  font-size: 0.9rem;
+}
+.message:hover {
+  background-color: hsl(216, 12%, 8%);
+  cursor: pointer;
+}
+.text-center {
+  text-align: center;
+  margin-top: 1.5rem;
 }
